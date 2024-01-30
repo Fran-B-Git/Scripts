@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 if ($argc < 2) {
@@ -12,4 +13,3 @@ if (!$file) {
 $clean = preg_replace('/\w+\((.*)\)(,*)/', '${1}${2}', $file);
 $clean = preg_replace('/\+0000/', 'Z', $clean);
 print_r($clean);
-?>
