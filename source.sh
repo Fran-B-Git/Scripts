@@ -26,9 +26,9 @@ alias hn49="ssh hn49"
 alias repo="~/Scripts/repo.sh"
 alias elastic="~/Scripts/elastic.sh"
 alias note="~/Scripts/note.sh"
+alias term="exec konsole & disown"
 
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
 alias gitdown='git pull --ff origin `git branch --show-current`'
-
