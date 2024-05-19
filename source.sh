@@ -22,6 +22,7 @@ alias right-of="xrandr --output HDMI-1 --auto --right-of eDP-1"
 
 alias mongo="~/Scripts/mongo.sh"
 alias mobup="nmcli c up \"Fran's Galaxy A52s 5G\""
+alias deskup="nmcli c up \"New 802-3-ethernet connection\""
 alias hn49="ssh hn49"
 alias repo="~/Scripts/repo.sh"
 alias elastic="~/Scripts/elastic.sh"
