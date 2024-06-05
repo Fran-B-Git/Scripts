@@ -15,9 +15,7 @@ function catcode(){
 
 export PATH="/home/Scripts/:$PATH"
 
-export VISUAL="nano"
-export EDITOR="nano"
-
+alias crontab="sudo EDITOR=nano crontab"
 
 alias cls=clear
 alias l=ls
