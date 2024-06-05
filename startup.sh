@@ -1,0 +1,1 @@
+cp ~/.config/i3/config ~/Scripts/i3/config
