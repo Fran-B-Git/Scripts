@@ -15,6 +15,10 @@ function catcode(){
 
 export PATH="/home/Scripts/:$PATH"
 
+export VISUAL="nano"
+export EDITOR="nano"
+
+
 alias cls=clear
 alias l=ls
 alias left-of="xrandr --output HDMI-1 --auto --left-of eDP-1"
