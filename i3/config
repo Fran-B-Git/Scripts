@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-# BOOT SETUP
+# BOOT SETUP boob
 
 # exec --no-startup-id "compton -b"
 exec_always --no-startup-id "killall picom; picom -b --config ~/.config/picom/picom.conf"
