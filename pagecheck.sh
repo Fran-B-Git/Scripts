@@ -21,7 +21,7 @@ cat $1 |
   xargs -P $threadCount -I {} sh -c '
   checkSinglePage() {
   url=$1;
-   response=$(curl "$url" -u $user:$password -w "%{http_code}" -o /dev/null/ -s)
+   response=$(curl "$url" $REDIRECT -u $user:$password -w "%{http_code}" -o /dev/null/ -s)
    
     if [ $response -eq 200 ]; then
       echo -e $GREEN $response : $url $NC
