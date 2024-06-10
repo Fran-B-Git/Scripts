@@ -24,3 +24,4 @@ snip.sh		: snipping for $mod+Shift+s on i3
 3) connect to new wifi: nmcli d wifi connect "SSID" password "PASSWORD"
 4) pinta is a good lightweight image editor
 5) bg changer is $mod+p
+6) cava is installed 

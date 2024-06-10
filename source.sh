@@ -30,7 +30,7 @@ alias repo="~/Scripts/repo.sh"
 alias elastic="~/Scripts/elastic.sh"
 alias note="~/Scripts/note.sh"
 alias term="exec konsole & disown"
-
+alias minihost="~/Scripts/minihost.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
