@@ -22,7 +22,7 @@ alias l=ls
 alias left-of="xrandr --output HDMI-1 --auto --left-of eDP-1"
 alias right-of="xrandr --output HDMI-1 --auto --right-of eDP-1"
 
-alias mobup="nmcli c up "goofytime"
+alias mobup="nmcli c up \"goofytime\""
 alias deskup="nmcli c up \"New 802-3-ethernet connection\""
 alias hn49="ssh hn49"
 alias repo="~/Scripts/repo.sh"
