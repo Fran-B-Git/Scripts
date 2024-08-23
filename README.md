@@ -22,7 +22,7 @@ snip.sh		: snipping for $mod+Shift+s on i3
 1) snipping: $mod+shift+s
 2) snip and edit: $mod+ctrl+s
 3) connect to new wifi: nmcli d wifi connect "SSID" password "PASSWORD"
-4) pinta is a good lightweight image editor
+4) pinta and rnote : good lightweight image editors
 5) bg changer is $mod+p
 6) cava is installed 
 7) use devnet for mongo and direct ip, not the portforwarding
