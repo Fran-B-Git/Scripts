@@ -26,3 +26,4 @@ snip.sh		: snipping for $mod+Shift+s on i3
 5) bg changer is $mod+p
 6) cava is installed 
 7) use devnet for mongo and direct ip, not the portforwarding
+8) status is for status
