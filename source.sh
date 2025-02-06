@@ -12,7 +12,7 @@ function catcode(){
     curl -s $target | convert - -edge 5 -blur 0x3 - | ascii-image-converter -b  -
     
 }
-
+shopt -s expand_aliases
 export PATH="/home/Scripts/:$PATH"
 
 alias crontab="sudo EDITOR=nano crontab"
@@ -32,6 +32,7 @@ alias term="exec konsole & disown"
 alias minihost="~/Scripts/minihost.sh"
 alias cava="~/cava/cava"
 alias status="~/Scripts/fancy.sh"
+alias livestatus="~/Scripts/livestatus.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
