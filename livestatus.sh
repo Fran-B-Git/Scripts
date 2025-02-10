@@ -6,10 +6,9 @@ while [ 1 -gt 0 ]
 do
 	cls
 	status
-	echo -n "sleeping $TIME seconds"
 	while [ $count -lt $TIME ]
 	do
-		echo -n "...$count"
+		echo -ne "\rsleeping $count/$TIME seconds"
 		sleep 1
 		count=$(($count+1))
 	done
