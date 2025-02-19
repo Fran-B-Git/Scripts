@@ -4,3 +4,4 @@ echo 'deb [trusted=yes] https://apt.fury.io/ascii-image-converter/ /' | sudo tee
 
 sudo apt update
 sudo apt install -y ascii-image-converter
+sudo apt install inotify-tools
