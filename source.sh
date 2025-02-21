@@ -35,7 +35,8 @@ alias status="~/Scripts/fancy.sh"
 alias livestatus="~/Scripts/livestatus.sh"
 alias bobr="ascii-image-converter -C --color-bg -m \"   \" ~/Pictures/shitpost/bobr-removebg-preview.png"
 alias filewatch="while inotifywait -r ./*; do ./bin/sbsync ; done;"
-
+alias bigmanblastoise="~/Scripts/bigmanblastoise.sh"
+alias blastoisenotif="~/Scripts/notifyblastoise.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
