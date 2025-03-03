@@ -15,6 +15,12 @@ sitemapRandLinks: same as scrape but more
 
 snip.sh		: snipping for $mod+Shift+s on i3
 
+status(fancy.sh)      : display image and weather from dhmz (takes optional scale param) 
+
+livestatus  :   live version of status (refreshes every 20s)
+
+bigmanblastoise and notifyblastoise are shitposts
+
 =============================================
 # My notes:
 ## current $mod = windows key
