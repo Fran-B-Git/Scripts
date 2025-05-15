@@ -13,7 +13,6 @@ function catcode(){
     
 }
 shopt -s expand_aliases
-export PATH="/home/Scripts/:$PATH"
 
 alias crontab="sudo EDITOR=nano crontab"
 
@@ -41,3 +40,11 @@ alias blastoisenotif="~/Scripts/notifyblastoise.sh"
 
 alias gitup='git push origin `git branch --show-current`'
 alias gitdown='git pull --ff origin `git branch --show-current`'
+
+### DIRECTORY STUFF
+
+alias kino=". ~/Scripts/workdir kino-bob"
+alias giga=". ~/Scripts/workdir giga-bob"
+alias des=". ~/Scripts/workdir desired-bob"
+alias fam=". ~/Scripts/workdir familie-bob"
+alias saf=". ~/Scripts/workdir spielaffe-bob"
