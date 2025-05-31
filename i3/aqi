@@ -1,0 +1,12 @@
+AQI=$(curl -s https://api.waqi.info/feed/zagreb/?token=07ab20afdd8160941dd1247208c2d1421d252616 | jq '.data.aqi')
+printf "$AQI\n"
+printf "$AQI\n"
+if [[ $AQI -lt 51 ]]; then
+	printf "#00EE00\n"
+elif [[ $AQI -gt 50 ]] && [[ $AQI -lt 101 ]]; then
+	printf "#EEEE00\n"
+elif [[ $AQI -gt 100 ]] && [[ $AQI -lt 150 ]]; then
+	printf "#EEA500\n"
+else
+	printf "#EE0000\n"
+fi
