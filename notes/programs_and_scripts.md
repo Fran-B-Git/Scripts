@@ -12,6 +12,7 @@
 - rofi                  : app launcher
 - ifnotifywait          : filewatcher
 - cava                  : terminal audio visualiser
+- animated-background   : thing to make and run a gif as the BG
 
 ## custom scripts/programs
 
