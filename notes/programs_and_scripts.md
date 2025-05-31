@@ -13,7 +13,7 @@
 - ifnotifywait          : filewatcher
 - cava                  : terminal audio visualiser
 - animated-background   : thing to make and run a gif as the BG
-
+- jq and jd             : terminal json parsers / diffs
 ## custom scripts/programs
 
 - minihost              : start a simple server and display QR code for the IP in terminal
