@@ -22,4 +22,4 @@
 - source.sh             : source file for custom aliases and miniscripts
 - pipe-editor           : custom shell script builder [REPO](https://github.com/Fran-B-Git/pipe-editor/)
 - dailytask             : simple daily task list [REPO](https://github.com/Fran-B-Git/dailytask)
-
+- raygrep               : custom grep script with caching to search through the raylib source header 
