@@ -14,8 +14,8 @@ function catcode(){
 }
 shopt -s expand_aliases
 
-if test -f ./localsource.sh; then
-	source ./localsource.sh
+if test -f ~/Scripts/localsource.sh; then
+	source ~/Scripts/localsource.sh
 fi
 
 alias cls=clear
