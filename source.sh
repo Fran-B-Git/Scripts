@@ -14,7 +14,9 @@ function catcode(){
 }
 shopt -s expand_aliases
 
-alias crontab="sudo EDITOR=nano crontab"
+if test -f ./localsource.sh; then
+	source ./localsource.sh
+fi
 
 alias cls=clear
 alias l=ls
@@ -27,7 +29,6 @@ alias hn49="ssh hn49"
 alias repo="~/Scripts/repo.sh"
 alias elastic="~/Scripts/elastic.sh"
 alias note="~/Scripts/note.sh"
-alias term="exec konsole & disown"
 alias minihost="~/Scripts/minihost.sh"
 alias raygrep="~/Scripts/raygrep.sh"
 # alias cava="~/cava/cava"
