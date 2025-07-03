@@ -15,6 +15,7 @@
 - animated-background   : thing to make and run a gif as the BG
 - jq and jd             : terminal json parsers / diffs
 - scrot                 : screenshot tool
+- ngrok                 : self hosting tool
 ## custom scripts/programs
 
 - minihost              : start a simple server and display QR code for the IP in terminal
