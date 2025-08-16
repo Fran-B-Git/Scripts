@@ -22,6 +22,7 @@ alias cls=clear
 alias l=ls
 alias left-of="xrandr --output HDMI-1 --auto --left-of eDP-1"
 alias right-of="xrandr --output HDMI-1 --auto --right-of eDP-1"
+alias bat=batcat
 
 alias mobup="nmcli c up \"goofytime\""
 alias deskup="nmcli c up \"share_internet\""
