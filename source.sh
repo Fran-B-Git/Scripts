@@ -1,5 +1,4 @@
 ### source for stuff
-
 function catcode(){
     
     if [ -z $1 ]
@@ -39,6 +38,7 @@ alias bobr="ascii-image-converter -C --color-bg -m \"   \" ~/Pictures/shitpost/b
 alias filewatch="while inotifywait -r ./*; do ./bin/sbsync ; done;"
 alias bigmanblastoise="~/Scripts/bigmanblastoise.sh"
 alias blastoisenotif="~/Scripts/notifyblastoise.sh"
+alias kys=exit 
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
