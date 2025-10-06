@@ -39,6 +39,7 @@ alias filewatch="while inotifywait -r ./*; do ./bin/sbsync ; done;"
 alias bigmanblastoise="~/Scripts/sh/bigmanblastoise.sh"
 alias blastoisenotif="~/Scripts/sh/notifyblastoise.sh"
 alias kys=exit 
+alias csync="~/Scripts/sh/composer_sync.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
