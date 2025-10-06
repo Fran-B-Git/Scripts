@@ -13,8 +13,8 @@ function catcode(){
 }
 shopt -s expand_aliases
 
-if test -f ~/Scripts/localsource.sh; then
-	source ~/Scripts/localsource.sh
+if test -f ~/Scripts/sh/localsource.sh; then
+	source ~/Scripts/sh/localsource.sh
 fi
 
 alias cls=clear
@@ -26,18 +26,18 @@ alias bat=batcat
 alias mobup="nmcli c up \"goofytime\""
 alias deskup="nmcli c up \"share_internet\""
 alias hn49="ssh hn49"
-alias repo="~/Scripts/repo.sh"
-alias elastic="~/Scripts/elastic.sh"
-alias note="~/Scripts/note.sh"
-alias minihost="~/Scripts/minihost.sh"
-alias raygrep="~/Scripts/raygrep.sh"
+alias repo="~/Scripts/sh/repo.sh"
+alias elastic="~/Scripts/sh/elastic.sh"
+alias note="~/Scripts/sh/note.sh"
+alias minihost="~/Scripts/sh/minihost.sh"
+alias raygrep="~/Scripts/sh/raygrep.sh"
 # alias cava="~/cava/cava"
-alias status="~/Scripts/fancy.sh"
-alias livestatus="~/Scripts/livestatus.sh"
+alias status="~/Scripts/sh/fancy.sh"
+alias livestatus="~/Scripts/sh/livestatus.sh"
 alias bobr="ascii-image-converter -C --color-bg -m \"   \" ~/Pictures/shitpost/bobr-removebg-preview.png"
 alias filewatch="while inotifywait -r ./*; do ./bin/sbsync ; done;"
-alias bigmanblastoise="~/Scripts/bigmanblastoise.sh"
-alias blastoisenotif="~/Scripts/notifyblastoise.sh"
+alias bigmanblastoise="~/Scripts/sh/bigmanblastoise.sh"
+alias blastoisenotif="~/Scripts/sh/notifyblastoise.sh"
 alias kys=exit 
 ### git stuff
 
@@ -46,10 +46,10 @@ alias gitdown='git pull --ff origin `git branch --show-current`'
 
 ### DIRECTORY STUFF
 
-alias kino=". ~/Scripts/workdir kino-bob"
-alias giga=". ~/Scripts/workdir giga-bob"
-alias des=". ~/Scripts/workdir desired-bob"
-alias fam=". ~/Scripts/workdir familie-bob"
-alias saf=". ~/Scripts/workdir spielaffe-bob"
-alias common=". ~/Scripts/workdir bob-common"
-alias dev=". ~/Scripts/workdir bob-common-dev"
+alias kino=". ~/Scripts/sh/workdir kino-bob"
+alias giga=". ~/Scripts/sh/workdir giga-bob"
+alias des=". ~/Scripts/sh/workdir desired-bob"
+alias fam=". ~/Scripts/sh/workdir familie-bob"
+alias saf=". ~/Scripts/sh/workdir spielaffe-bob"
+alias common=". ~/Scripts/sh/workdir bob-common"
+alias dev=". ~/Scripts/sh/workdir bob-common-dev"
