@@ -1,0 +1,7 @@
+#!/bin/bash
+DIR=~/PhpstormProjects/$1/;
+if [[ "$2" == "new" ]]
+then
+	exec konsole $DIR & disown;
+fi
+cd $DIR
