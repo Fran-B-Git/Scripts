@@ -40,6 +40,7 @@ alias bigmanblastoise="~/Scripts/sh/bigmanblastoise.sh"
 alias blastoisenotif="~/Scripts/sh/notifyblastoise.sh"
 alias kys=exit 
 alias csync="~/Scripts/sh/composer_sync.sh"
+alias acsync="~/Scripts/sh/auto_composer_sync.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
