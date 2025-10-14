@@ -12,7 +12,7 @@ git pull --ff origin `git branch --show-current`
 
 ./bin/sbsync;
 
-ssh hn49 -t "cd $DIR; sbcli shell -- composer update;"
+ssh hn49 -t "cd $DIR; sbcli shell -- composer update lock;"
 
 scp hn49:$DIR/composer.* .
 
