@@ -4,6 +4,8 @@ if [ ! -f .sbsync/config ];then
         exit 1
 fi;
 
+nmcli c up devnet
+
 DIR=`grep -o "repos_.*$" .sbsync/config`
 
 echo "DIR FOUND: $DIR";
