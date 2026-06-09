@@ -1,7 +1,7 @@
 #!/bin/bash
 TIME=20
 count=0
-source ~/Scripts/source.sh
+source /mnt/lilDude/Scripts/sh/source.sh
 while [ 1 -gt 0 ]
 do
 	cls

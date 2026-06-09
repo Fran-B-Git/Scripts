@@ -1,0 +1,24 @@
+#!/bin/bash
+blastout="u78vx6lbnmtmki6yr0j"
+eggstreme="ppeu02rz1esmfkupq1n"
+dir=$(dirname $0)
+j=`cat $dir/current`
+if [[ "$j" == "$eggstreme" ]]
+
+then
+	echo "setting blastout"
+	notify-send "setting blastout"
+
+	$dir/tuxedo set $blastout
+	echo "$blastout" > $dir/current
+	
+elif [[ "$j" -eq "$blastout" ]]
+
+then
+	echo "setting eggstreme"
+	notify-send "setting eggstreme"
+
+	$dir/tuxedo set $eggstreme
+	echo "$eggstreme" > $dir/current
+fi
+
