@@ -1,0 +1,22 @@
+#!/bin/bash
+
+FAM="/www/fba/repos_fambob_fba_smb_bob_common"
+DES="/www/fba/repos_desbob_fba_smb_bob_common"
+KINO="/www/fba/repos_kinobob_fba_smb_bob_common"
+GIGA="/www/fba/repos_gigabob_fba_smb_bob_common"
+SAF="/www/fba/repos_asfbob_fba_smb_bob_common"
+
+echo FAM
+ssh hn49 "cd $FAM; $1"
+echo "---"
+echo DES
+ssh hn49 "cd $DES; $1"
+echo "---"
+echo KINO
+ssh hn49 "cd $KINO; $1"
+echo "---"
+echo GIGA
+ssh hn49 "cd $GIGA; $1"
+echo "---"
+echo SAF
+ssh hn49 "cd $SAF; $1"

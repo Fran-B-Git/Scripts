@@ -1,4 +1,7 @@
 ### source for stuff
+
+lildude="/mnt/lilDude"
+DIR="/mnt/lilDude/Scripts"
 function catcode(){
     
     if [ -z $1 ]
@@ -13,8 +16,8 @@ function catcode(){
 }
 shopt -s expand_aliases
 
-if test -f ~/Scripts/sh/localsource.sh; then
-	source ~/Scripts/sh/localsource.sh
+if test -f $DIR/sh/localsource.sh; then
+	source $DIR/sh/localsource.sh
 fi
 
 alias cls=clear
@@ -26,21 +29,21 @@ alias bat=batcat
 alias mobup="nmcli c up \"goofytime\""
 alias deskup="nmcli c up \"share_internet\""
 alias hn49="ssh hn49"
-alias repo="~/Scripts/sh/repo.sh"
-alias elastic="~/Scripts/sh/elastic.sh"
-alias note="~/Scripts/sh/note.sh"
-alias minihost="~/Scripts/sh/minihost.sh"
-alias raygrep="~/Scripts/sh/raygrep.sh"
+alias repo="$DIR/sh/repo.sh"
+alias elastic="$DIR/sh/elastic.sh"
+alias note="$DIR/sh/note.sh"
+alias minihost="$DIR/sh/minihost.sh"
+alias raygrep="$DIR/sh/raygrep.sh"
 # alias cava="~/cava/cava"
-alias status="~/Scripts/sh/fancy.sh"
-alias livestatus="~/Scripts/sh/livestatus.sh"
+alias status="$DIR/sh/fancy.sh"
+alias livestatus="$DIR/sh/livestatus.sh"
 alias bobr="ascii-image-converter -C --color-bg -m \"   \" ~/Pictures/shitpost/bobr-removebg-preview.png"
 alias filewatch="while inotifywait -r ./*; do ./bin/sbsync ; done;"
-alias bigmanblastoise="~/Scripts/sh/bigmanblastoise.sh"
-alias blastoisenotif="~/Scripts/sh/notifyblastoise.sh"
+alias bigmanblastoise="$DIR/sh/bigmanblastoise.sh"
+alias blastoisenotif="$DIR/sh/notifyblastoise.sh"
 alias kys=exit 
-alias csync="~/Scripts/sh/composer_sync.sh"
-alias acsync="~/Scripts/sh/auto_composer_sync.sh"
+alias csync="$DIR/sh/composer_sync.sh"
+alias acsync="$DIR/sh/auto_composer_sync.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
@@ -48,10 +51,10 @@ alias gitdown='git pull --ff origin `git branch --show-current`'
 
 ### DIRECTORY STUFF
 
-alias kino=". ~/Scripts/sh/workdir kino-bob"
-alias giga=". ~/Scripts/sh/workdir giga-bob"
-alias des=". ~/Scripts/sh/workdir desired-bob"
-alias fam=". ~/Scripts/sh/workdir familie-bob"
-alias saf=". ~/Scripts/sh/workdir spielaffe-bob"
-alias common=". ~/Scripts/sh/workdir bob-common"
-alias dev=". ~/Scripts/sh/workdir bob-common-dev"
+alias kino=". $DIR/sh/workdir kino-bob"
+alias giga=". $DIR/sh/workdir giga-bob"
+alias des=". $DIR/sh/workdir desired-bob"
+alias fam=". $DIR/sh/workdir familie-bob"
+alias saf=". $DIR/sh/workdir spielaffe-bob"
+alias common=". $DIR/sh/workdir bob-common"
+alias dev=". $DIR/sh/workdir bob-common-dev"
