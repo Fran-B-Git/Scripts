@@ -5,5 +5,6 @@ if [ $# -eq 0 ];then
 else
 	ip=$1
 fi
-qrencode -o - -t ANSI "http://$ip:8000/$1"
+echo $ip
+qrencode -o - -t ANSI "http://$ip:8000/"
 python3 -m http.server 
