@@ -45,6 +45,7 @@ alias blastoisenotif="$DIR/sh/notifyblastoise.sh"
 alias kys=exit 
 alias csync="$DIR/sh/composer_sync.sh"
 alias acsync="$DIR/sh/auto_composer_sync.sh"
+alias ds="$DIR/sh/ds.sh"
 ### git stuff
 
 alias gitup='git push origin `git branch --show-current`'
@@ -59,4 +60,3 @@ alias fam=". $DIR/sh/workdir familie-bob"
 alias saf=". $DIR/sh/workdir spielaffe-bob"
 alias common=". $DIR/sh/workdir bob-common"
 alias dev=". $DIR/sh/workdir bob-common-dev"
-alias ds="nmcli c up devnet && devbox shell"
